@@ -1,12 +1,12 @@
-import React from "react";
-import Banner from "./components/banner";
-import Menu from "./components/menu";
+import React from "react"
+// import Menu from "./components/menu"
+import Routes from "./routes/routes"
 import "./global.css";
 
 function App() {
   return (
     <>
-      <Banner />
+    <Routes />
     </>
   );
 }
