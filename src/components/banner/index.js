@@ -11,7 +11,7 @@ const Banner = () => {
             </div>
             <img src={Img} alt='Ilustração de uma mulher com varios corações em volta' />
         </div>
-    )
+        )
 }
 
-export default Banner;
+        export default Banner;
