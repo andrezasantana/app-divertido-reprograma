@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "./components/banner";
-import "./global.css"
+import Menu from "./components/menu";
+import "./global.css";
 
 function App() {
   return (
