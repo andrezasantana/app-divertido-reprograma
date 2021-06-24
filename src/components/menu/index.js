@@ -8,6 +8,7 @@ const Menu = () => {
             <ul className="menu">
                 <li><Link className="link" to="/">Home</Link></li>
                 <li><Link className="link" to="/simpsons">Simpsons</Link></li>
+                <li><Link className="link" to="/gatos">Gatos</Link></li>
             </ul>
         </div>
     )

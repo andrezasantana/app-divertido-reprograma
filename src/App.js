@@ -1,5 +1,5 @@
 import React from "react"
-// import Menu from "./components/menu"
+import Menu from "./components/menu"
 import Routes from "./routes/routes"
 import "./global.css";
 
