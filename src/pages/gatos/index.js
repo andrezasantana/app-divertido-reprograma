@@ -1,17 +1,37 @@
-import React, { useState, useEffect } from 'react'
-import Menu from '../../components/menu'
-import Gatos from '../../gatos'
+import React, { useState, useEffect } from 'react';
+import Menu from '../../components/menu';
+import gatos from './gatos';
+import './style.css';
 
-const Gato = (props) => {
-    // return (
-    //     <>
-    //         <Menu />
-    //         <div>
-    //             <h3>{props.id} - {props.name}</h3>
-    //             <img src={props.image} alt="Meme de Gato" style={{ "width": "300px" }}></img>
-    //         </div>
-    //     </>
-    // )
+const Gatos = () => {
+    const [busca, setBusca] = useState('')
+    const [filtroGatos, setFiltroGatos] = useState([])
+
+    useEffect(() => {
+        setFiltroGatos(
+            gatos.filter(cat => {
+                return cat.name.toLowerCase().includes(busca.toLowerCase())
+            })
+        )
+    }, [busca])
+
+    return (
+        <>
+            <Menu />
+            <div className="text">
+                <input onChange={e => { setBusca(e.target.value) }} placeholder="Digite um dia" />
+            </div>
+            <div className="main-gatos">
+                {filtroGatos.map((cat) => {
+                    return (
+                        <div className="card" key={cat.id}>
+                            <h2>{cat.name}</h2>
+                            <img src={cat.image} alt="imagem gato" />
+                        </div>
+                    )
+                })}
+            </div>
+        </>
+    )
 }
-
-export default Gato
+export default Gatos;

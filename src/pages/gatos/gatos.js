@@ -2,7 +2,7 @@ const gatos = [
     {
         "id": 1,
         "name":"Domingo",
-        "image":"https://lh3.googleusercontent.com/proxy/KiI0_KrrO41Q0nTwcJKixHVh0bk7FClcp2RN4k5C7noEIkSnPH0_gHj1PBc66cRXxnORfxzFoS7xJOmc8N57XzO_Jx6o-63T_avoNaD51xaoDpQVAKDJa1sMAW9FFmjJKHysxDcU2ov8ZIs9MEgoOkSMhsvmM0GeMjzZg6bU"
+        "image":"https://pics.me.me/gatos-no-face-e-domingo-que-um-feliz-dia-te-17669108.png"
     },
     {
         "id": 2,

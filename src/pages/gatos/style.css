@@ -1,0 +1,71 @@
+.main-gatos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    flex-wrap: wrap;
+}
+
+.main-gatos .card{
+    background-color: wheat;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-gatos .card img{
+    width: 50%;
+}
+
+.main-gatos .card h2{
+    font-size: 20px;
+    color:#4f2158;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+input {
+    border: none;
+    padding: 4px, 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media (max-width:768px){
+    .main-gatos {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        background-color: wheat;
+        padding: 3rem;
+    }
+    .main-gatos .card{
+        margin: 2rem;
+        background-color: wheat;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .main-gatos button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+}
