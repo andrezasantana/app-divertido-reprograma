@@ -1,0 +1,27 @@
+.footer {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redes {
+    text-decoration: none;
+    color:wheat;
+    padding: 0 20px;
+}
+.bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    padding: 1%;
+}
+.imagem-bio {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+.lista-bio {
+    font-size: 14px;
+    padding: 20px;
+}

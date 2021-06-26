@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Menu from '../../components/menu';
+import Footer from "../../components/footer";
 import gatos from './gatos';
 import './style.css';
 
@@ -31,6 +32,7 @@ const Gatos = () => {
                     )
                 })}
             </div>
+            <Footer />
         </>
     )
 }
